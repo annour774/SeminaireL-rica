@@ -1,0 +1,57 @@
+// Déclaration des variables pour la réutilisabilité
+$primary-color: #333;
+$secondary-color: #666;
+$background-color: #f9f9f9;
+$container-width: 800px;
+
+// Style global pour le body
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    margin: 0;
+    padding: 20px;
+}
+
+// Style pour le conteneur principal
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// Style pour les titres
+h1 {
+    font-size: 24px;
+    color: $primary-color;
+    text-align: center;
+    text-decoration: underline;
+}
+
+// Style pour les paragraphes
+p {
+    font-size: 16px;
+    color: $secondary-color;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: justify;
+
+}
+// Style pour le bouton like
+.btn-like {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Arrondi des coins */
+    padding: 8px 16px; /* Espacement interne */
+    cursor: pointer; /* Curseur au survol */
+    transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+.btn-like:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
+}
+
